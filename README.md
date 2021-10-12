@@ -9,3 +9,9 @@
 
 ## Rodar migrations
 * npm run typeorm
+
+## Criar Migration
+npx typeorm migration:create -n 'Nome da migration ex: CreateUsers'
+
+## Rodar Migration
+npm run typeorm migration:run
